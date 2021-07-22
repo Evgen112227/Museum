@@ -10,8 +10,6 @@ body{
   font-style: normal;
   font-weight: 100;
   font-size: 16px;
-  padding-left: 240px;
-  padding-right: 240px;
   max-width: 1920px;
 }
 
@@ -21,6 +19,7 @@ body{
 .container {
 max-width: 1440px;
 margin: 0 auto;
+padding:0;
 }
 /*________________________________________________________________________*/
 /*fonts style start*/
@@ -56,7 +55,7 @@ margin: 0 auto;
 @font-face {
 font-family: 'Forum';
 font-style: normal;
-font-weight: 400;
+font-weight: 100;
 src: url('./assets/fonts/forum-v11-latin-regular.eot'); /* IE9 Compat Modes */
 src: local(''),
      url('./assets/fonts/forum-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -70,9 +69,15 @@ src: local(''),
 /*________________________________________________________________________*/
 
 /*Header style start*/
+header{
+  max-height: 200px;
+  background: #000;
+}
 
 .header-nav {
   max-width: 720px;
+  padding-top: 74px;
+  padding-bottom: 76px;
 }
 
 .header-wrapper{
@@ -80,11 +85,13 @@ src: local(''),
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 74px;
-  padding-bottom: 76px;
   background-color: black;
 }
 
+.logo{
+  padding-top: 74px;
+  padding-bottom: 76px;
+}
 
 .header__list{
   display: flex;
@@ -135,6 +142,7 @@ src: local(''),
   letter-spacing: 5px;
   text-transform: uppercase;
   color:#FFFFFF;
+  padding-left:  20px;
 }
 
 /*Header style end*/
@@ -142,12 +150,21 @@ src: local(''),
 
 /*Welcome style start*/
 
+main{
+  max-width: 1920px;
+  background: black;
+  margin: 0;
+  padding: 0;
+}
+
 .welcome{
-  height: 750px;
+  height: 100vh;
+  max-width: 1920px;
   background: url(./assets/img/welcome-bg.jpg) no-repeat right;
   background-color: black;
-  padding-top: 76px;
-  padding-bottom: 76px;
+  background-position: calc(100% - 0px) calc(100% - 0px);
+  margin: 0;
+  padding: 0;
 }
 
 
