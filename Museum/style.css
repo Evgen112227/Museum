@@ -1,11 +1,13 @@
 html{
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *, *::before, *::after{
   box-sizing: inherit;
 }
 
 body{
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 100;
@@ -13,8 +15,10 @@ body{
   max-width: 1920px;
 }
 
-.section {
+section {
   margin: 0;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 .container {
 max-width: 1440px;
@@ -149,22 +153,28 @@ header{
 /*________________________________________________________________________*/
 
 /*Welcome style start*/
+h1 {
+  margin:0;
+}
+
+.dark-section{
+  background-color: red;
+}
 
 main{
-  max-width: 1920px;
-  background: black;
+
   margin: 0;
   padding: 0;
 }
 
 .welcome{
-  height: 100vh;
+  height: 750px;
   max-width: 1920px;
-  background: url(./assets/img/welcome-bg.jpg) no-repeat right;
-  background-color: black;
-  background-position: calc(100% - 0px) calc(100% - 0px);
   margin: 0;
   padding: 0;
+  background-image: url(./assets/img/welcome-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 
