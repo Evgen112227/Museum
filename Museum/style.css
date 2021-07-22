@@ -134,6 +134,7 @@ src: local(''),
 .welcome{
   height: 750px;
   background: url(welcome-bg.jpg) no-repeat right;
+  background-color: black;
 }
 
 
