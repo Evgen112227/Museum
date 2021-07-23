@@ -155,16 +155,44 @@ header{
 /*Welcome style start*/
 h1 {
   margin:0;
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.subtitle{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 2px;
+  color:white
+}
+
+.intro{
+  width: 600px;
+  height: 390px;
+  padding-top: 115px;
 }
 
 .dark-section{
-  background-color: red;
+  background-color: black;
 }
 
 main{
 
   margin: 0;
   padding: 0;
+}
+
+.welcome__title{
+  margin-bottom: 26px;
 }
 
 .welcome{
@@ -174,10 +202,26 @@ main{
   padding: 0;
   background-image: url(./assets/img/welcome-bg.jpg);
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: calc(100% - 0px) calc(100% - 0px);
 }
 
-
+.intro_button {
+  padding: 25px 68px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  background: #710707;
+  border: 0;
+  border-radius: 10px;
+  
+}
 
 /*Welcome style end*/
 /*________________________________________________________________________*/
