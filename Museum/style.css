@@ -326,6 +326,46 @@ a h3::after {
   margin-top: 0;
   color: #000000;
 }
+
 /*________________________________________________________________________*/
 
 /*Virtual tour style end*/
+
+/*Explore style start*/
+.explore .container{
+  display: flex;
+  justify-content: space-between;
+  height: 715px;
+
+}
+
+.explore{
+  background: #000;
+}
+
+.explore span{
+  color: #9D8665;
+}
+.explore p{
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+}
+
+.first-paragraph{
+  margin-top: 103px;
+}
+
+.second-paragraph, .third-paragraph{
+  margin-top: 25px;
+}
+
+.picture{
+  margin-top: 15px;
+}
+
+/*Explore style end*/
+/*________________________________________________________________________*/
