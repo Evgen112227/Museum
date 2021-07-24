@@ -372,10 +372,9 @@ a h3::after {
 
 /* Video style start*/
 .video .container {
-  border: 1px solid black;
   max-height: 845px;
-  max-width: 1440px;
 }
+
 .video{
   padding: 90px;
 }
@@ -388,6 +387,7 @@ a h3::after {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 40px;
 }
 
 .video__paragraph{
