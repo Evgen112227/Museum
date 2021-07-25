@@ -15,6 +15,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <title>Museum</title>
 </head>
 <body>
@@ -75,7 +78,7 @@
             
         </section>
     
-        <section class="visiting">
+        <section class="visiting" id="visiting">
             <div class="container">
                 <div class="visiting__info">
                     <h2 class="section-title-white">
@@ -84,7 +87,7 @@
                     <div class="wrapper">
                         <div class="tour-picture">
                             <a href="#" class="royal-palace">
-                                <img src="./assets/img/royal-palace.png" width="440" height="285" alt="royal-palace">
+                                <img class="r-palace" src="./assets/img/royal-palace.png" width="440" height="285" alt="royal-palace">
                                 <h3>
                                     Royal-palace
                                 </h3>
@@ -172,7 +175,7 @@
             </div>
         </section>
     
-        <section class="explore">
+        <section class="explore" id="explore">
             <div class="container">
                 <div class="description">
                     <h2 class="section-title-black">
@@ -200,7 +203,7 @@
             </div>
         </section>
     
-        <section class="video">
+        <section class="video" id="video">
             <div class="container">
                 <div class="videoplayer">
                     <div class="videoframe">
@@ -231,6 +234,49 @@
         </section>
     
         <section class="tickets">
+            <div class="container">
+                    <h2 class="section-title-black">
+                        Buy tickets
+                    </h2>
+                    <div class="tickets__content">
+                        <img src="./assets/img/buyticketsimage.png" width="720" height="550" alt="pictureofsection">
+                        <div class="ticketstype">
+                            <p class="ticketsparagraph">Ticket type</p>
+                            <label class="label">Permanent exhibition
+                                <input type="radio" checked="checked" name="radio">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="label">Temporary exhibition
+                                <input type="radio"  name="radio">
+                                <span class="checkmark"></span>
+                            </label><label class="label">Combined exhibition
+                                <input type="radio"  name="radio">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="amount">
+                            <p class="am">Amount</p>
+                            <div class="basic18">
+                                <span>Basic 18+</span>
+                                <div class="buttonnumber">
+                                    <button class="amount__button" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                                    <input type="number" min="0" max="100" value="1" readonly class="number">
+                                    <button class="amount__button" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                                </div>
+                            </div>
+                            <div class="senior65">
+                                <span>Senior 65+</span>
+                                <div class="buttonnumber">
+                                    <button class="amount__button" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                                    <input type="number" min="0" max="100" value="1" readonly class="number">
+                                    <button class="amount__button" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                                </div>
+                                <p class="am tot">Total €220</p>
+                                <button class="buynow">Buy now</button>
+                            </div>
+                        </div>
+                    </div>  
+            </div>
         </section>
     
         <section class="contacts">
