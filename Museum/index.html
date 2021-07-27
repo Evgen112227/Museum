@@ -82,7 +82,7 @@
                 </div>
             </section>
 
-        <section class="visiting" id="visiting">
+        <section class="visiting pix-perf-fix" id="visiting">
             <div class="container">
                 <div class="visiting__info">
                     <h2 class="section-title-white">
@@ -131,7 +131,8 @@
                                 </p>
                             </a>
                         </div>
-                        <div class="tour-picture">
+
+                        <div class="tour-picture margins">
                             <a href="#" class="royal-palace">
                                 <img src="./assets/img/greek-hall.png" width="440" height="285" alt="greek-hall">
                                 <h3>
@@ -145,7 +146,7 @@
                                 </p>
                             </a>
                         </div>
-                        <div class="tour-picture">
+                        <div class="tour-picture margins">
                             <a href="#" class="royal-palace">
                                 <img src="./assets/img/mona-lisa.png" width="440" height="285" alt="mona lisa">
                                 <h3>
@@ -159,7 +160,7 @@
                                 </p>
                             </a>
                         </div>
-                        <div class="tour-picture">
+                        <div class="tour-picture margins">
                             <a href="#" class="royal-palace">
                                 <img src="./assets/img/night-palace.png" width="440" height="285" alt="night palace">
                                 <h3>
@@ -173,6 +174,8 @@
                                 </p>
                             </a>
                         </div>
+
+                        
                         
                     </div>
                 </div>
@@ -207,7 +210,7 @@
             </div>
         </section>
     
-        <section class="video" id="video">
+        <section class="video fix-pixel" id="video">
             <div class="container">
                 <div class="videoplayer">
                     <div class="videoframe">
@@ -217,17 +220,17 @@
                     </div>
                 </div>
                     <div class="videobar">
-                        <img class="backwardbutton" src="./assets/svg/videoberelements/backwardbutton.svg" height="30" alt="">
-                        <img src="./assets/svg/videoberelements/playbuttonsmall.svg" height="30" alt="">
-                        <img src="./assets/svg/videoberelements/forwardbutton.svg" height="30" alt="">
+                        <img class="backwardbutton" src="./assets/svg/videoberelements/backwardbutton.svg" height="30" alt="backward">
+                        <img src="./assets/svg/videoberelements/playbuttonsmall.svg" height="30" alt="play">
+                        <img src="./assets/svg/videoberelements/forwardbutton.svg" height="30" alt="forward">
                         <div class="contentbar">
-                            <input type="range" value="40" min="0" max="100" step="1" class="progress">
+                            <input type="range" value="47" min="0" max="100" step="1" class="progress">
                         </div>
-                        <img src="./assets/svg/videoberelements/soundicon.svg" height="30" alt="">
+                        <img src="./assets/svg/videoberelements/soundicon.svg" height="30" alt="sound">
                         <div class="volumebar">
                             <input type="range" value="40" min="0" max="100" step="1" class="progress1">
                         </div>
-                        <img class="wholescreenbutton" src="./assets/svg/videoberelements/wholescreenbutton.svg" height="36" width="36"alt="">
+                        <img class="wholescreenbutton" src="./assets/svg/videoberelements/wholescreenbutton.svg" height="36" width="36" alt="wholescreenbutton">
                     </div>
 
                 <div class="video__description">
@@ -237,7 +240,7 @@
             </div>
         </section>
     
-        <section class="tickets">
+        <section class="tickets" id="tickets"> 
             <div class="container">
                     <h2 class="section-title-black">
                         Buy tickets
@@ -263,7 +266,7 @@
                             <div class="basic18">
                                 <span>Basic 18+</span>
                                 <div class="buttonnumber">
-                                    <button class="amount__button" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                                    <button class="amount__button" type="button" onclick="this.nextElementSibling.stepDown()">–</button>
                                     <input type="number" min="0" max="100" value="1" readonly class="number">
                                     <button class="amount__button" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
                                 </div>
@@ -271,7 +274,7 @@
                             <div class="senior65">
                                 <span>Senior 65+</span>
                                 <div class="buttonnumber">
-                                    <button class="amount__button" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                                    <button class="amount__button" type="button" onclick="this.nextElementSibling.stepDown()">–</button>
                                     <input type="number" min="0" max="100" value="1" readonly class="number">
                                     <button class="amount__button" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
                                 </div>
@@ -283,7 +286,7 @@
             </div>
         </section>
     
-        <section class="contacts">
+        <section class="contacts" id="contacts">
             <div class="container">
                 <h2 class="section-title-white">Contacts</h2>
                 <div class="contactstoflex">
@@ -297,12 +300,8 @@
                         <img src="./assets/img/contactsmap.png" width="960" height="620" alt="map-to-drive">
                     </div>
                 </div>
-                
-                
-
             </div>
         </section>
-
 
     </main>
 
@@ -311,7 +310,7 @@
             <div class="container">
                 <div class="cont-for-items">
                     <div class="logo-header">
-                        <a href="/" class="header__logo-link">
+                        <a href="#" class="header__logo-link">
                             <img src="./assets/svg/logo.svg" alt="Welcome to the Louvre" class="header__logo-pic">
                             <span class="louvre">Louvre</span>
                         </a>
@@ -350,6 +349,7 @@
                             <li class="header__item">
                                 <a href="#contacts" class="header__link">
                                     Contacts
+                                    <h6 class="walidator">123</h6>
                                 </a>
                             </li>
                         </ul>
@@ -359,27 +359,26 @@
                 <div class="footer__socials">
                     <nav class="footer-nav">
                         <ul class="footer-navig">
-
-                            <a href="#">
-                                <li class="youtube-logo">
-                                    <img class="youtube-logo1" src="./assets/svg/socials-elements/youtube-button.svg" alt="">
+                            <li class="youtube-logo">
+                                <a href="#">
+                                    <img class="youtube-logo1" src="./assets/svg/socials-elements/youtube-button.svg" alt="youtube-logo">
+                                </a>    
                             </li>
-                            </a>
-
-                            <a href="#">
-                                <li class="insta-logo">
-                                    <img class="insta-logo1" src="./assets/svg/socials-elements/instagram.svg" alt="">
-                                </li>
-                            </a>
+                            <li class="insta-logo">
+                                <a href="#">
+                                    <img class="insta-logo1" src="./assets/svg/socials-elements/instagram.svg" alt="insta-logo">
+                                </a>
+                            </li>
+                            
                             
                             <li class="facebook-logo">
-                                <img class="facebook-logo1" src="./assets/svg/socials-elements/facebook.svg" alt="">
+                                <img class="facebook-logo1" src="./assets/svg/socials-elements/facebook.svg" alt="facebook-logo">
                             </li>
                             <li class="twitter-logo">
-                                <img class="twitter-logo1" src="./assets/svg/socials-elements/twitter.svg" alt="">
+                                <img class="twitter-logo1" src="./assets/svg/socials-elements/twitter.svg" alt="twitter-logo">
                             </li>
                             <li class="pinterest-logo">
-                                <img class="pinterest-logo1" src="./assets/svg/socials-elements/pinterest.svg" alt="">
+                                <img class="pinterest-logo1" src="./assets/svg/socials-elements/pinterest.svg" alt="pinterest-logo">
                             </li>
                         </ul>
                     </nav>

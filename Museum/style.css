@@ -247,7 +247,10 @@ main{
   background: #710707;
   border: 0;
   border-radius: 10px;
-  
+}
+
+.con{
+  padding-top: 0;
 }
 
 /*Welcome style end*/
@@ -323,6 +326,9 @@ h2::after{ /*создаем пседвоэлемент подчеркивани�
   transition: 1s;
 }
 
+.margins{
+  margin-top: 55px;
+}
 
 .tour{
   font-family: Roboto;
@@ -344,6 +350,10 @@ h2::after{ /*создаем пседвоэлемент подчеркивани�
   line-height: 21px;
   margin-top: 0;
   color: #000000;
+}
+
+.pix-perf-fix{
+  padding-bottom: 50px;
 }
 
 /*________________________________________________________________________*/
@@ -406,7 +416,7 @@ h2::after{ /*создаем пседвоэлемент подчеркивани�
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 28px;
 }
 
 .video__paragraph{
@@ -464,8 +474,8 @@ h2::after{ /*создаем пседвоэлемент подчеркивани�
 }
 
 .progress {
-  background: linear-gradient(to right, #24809E 0%, #24809E 40%, #C4C4C4 40%, #C4C4C4 100%);
-  height: 15px;
+  background: linear-gradient(to right, #24809E 0%, #24809E 47%, #C4C4C4 40%, #C4C4C4 100%);
+  height: 8px;
   width: 820px;
   outline: none;
   -webkit-appearance: none;
@@ -473,20 +483,25 @@ h2::after{ /*создаем пседвоэлемент подчеркивани�
 
 .progress1 {
   background: linear-gradient(to right, #24809E 0%, #24809E 40%, #C4C4C4 40%, #C4C4C4 100%);
-  height: 15px;
+  height: 8px;
   width: 155px;
   outline: none;
   -webkit-appearance: none;
 }
 
 .progress::-webkit-slider-thumb, .progress1::-webkit-slider-thumb {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   -webkit-appearance: none;
   cursor: ew-resize;
   background: white;
 }
+
+.fix-pixel{
+  padding-bottom: 75px;
+}
+
 /* Video style end*/
 /*________________________________________________________________________*/  
 /*Tickets style start*/
@@ -630,6 +645,7 @@ h2::after{ /*создаем пседвоэлемент подчеркивани�
 
 .tot{
   padding-top: 50px;
+  letter-spacing: 1.65px;
 }
 
 .number {
@@ -685,7 +701,7 @@ h2::after{ /*создаем пседвоэлемент подчеркивани�
 }
 /*Contacts style end*/
 /*________________________________________________________________________*/ 
- 
+ /* Footer style start */
 footer{
   height: 300px;
   background-color: #000;
@@ -717,6 +733,7 @@ footer{
 }
 
 footer ul{
+  list-style: none;
   padding: 0;
   margin: 0;
 }
@@ -746,14 +763,16 @@ footer .header__link{
   height:48px;
   border: 1px solid #666666;
   border-radius: 50px;
+}
 
+.youtube-logo:hover, .insta-logo:hover, .facebook-logo:hover, .twitter-logo:hover, .pinterest-logo:hover{
+  border: 1px solid #9D8665;
 }
 
 .youtube-logo1, .insta-logo1, .facebook-logo1, .twitter-logo1, .pinterest-logo1{
   position: absolute;
   top: 13px;
   left: 12px;
-  
 }
 
 .footer-navig a{
@@ -767,3 +786,12 @@ footer .header__link{
 .pinterest-logo{
   margin-right: 14px;;
 }
+
+.walidator{
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+/* Footer style end */
+/*________________________________________________________________________*/ 
